@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('swFrontApp', [
+  .module('angAdminApp', [
     'ngCookies',
     'ngResource',
     'ngSanitize',
