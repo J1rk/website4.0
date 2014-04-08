@@ -9,6 +9,9 @@ gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
+# Compass - used by angular app, otherwise I'd use compass-rails gem
+gem 'compass'
+
 # Use Haml
 gem 'haml-rails'
 
