@@ -2,7 +2,7 @@
   <thead>
     <tr>
       <th><input type="checkbox"></th>
-      <th class="hidden-xs">Date</th>
+      <th class="hidden-sm">Date</th>
       <th>Title</th>
       <th>Actions</th>
     </tr>
@@ -10,7 +10,7 @@
   <tbody>
     <tr ng-repeat="article in articles">
       <td><input type="checkbox"></td>
-      <td class="hidden-xs" ng-bind="article.date"></td>
+      <td class="hidden-sm" ng-bind="article.date"></td>
       <td ng-bind="article.title"></td>
       <td>
         <div class="btn-group">
