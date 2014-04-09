@@ -1,0 +1,29 @@
+<nav class="navbar navbar-default" role="navigation" ng-controller="TopNavbarCtrl">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">My Angular Admin</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav visible-xs">
+        <li ng-class="{active:isActive('/admin/articles')}"><a href="/#/admin/articles">Articles</a></li>
+        <li ng-class="{active:isActive('/admin/menus')}"><a href="/#/admin/articles">Menus</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href=""><span class="glyphicon glyphicon-globe"></span> View website</a></li>
+        <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Jiri Tomasek <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href=""><span class="glyphicon glyphicon-search"></span> View Profile</a></li>
+            <li><a href=""><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>

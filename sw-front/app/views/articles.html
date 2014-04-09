@@ -2,18 +2,16 @@
   <thead>
     <tr>
       <th><input type="checkbox"></th>
-      <th>Date</th>
+      <th class="hidden-xs">Date</th>
       <th>Title</th>
-      <th>Content</th>
       <th class="align-right">Actions</th>
     </tr>
   </thead>
   <tbody>
     <tr ng-repeat="article in articles">
       <td><input type="checkbox"></td>
-      <td ng-bind="article.date"></td>
+      <td class="hidden-xs" ng-bind="article.date"></td>
       <td ng-bind="article.title"></td>
-      <td ng-bind="article.content"></td>
       <td>
         <div class="btn-group">
           <button type="button" class="btn btn-default btn-xs">Action</button>

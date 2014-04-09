@@ -9,15 +9,11 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
       .when('/admin/articles', {
         templateUrl: 'views/articles.html',
         controller: 'ArticlesCtrl'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/admin/articles'
       });
   });
