@@ -1,4 +1,4 @@
-Angadmin::Application.routes.draw do
+Website::Application.routes.draw do
   namespace :api, defaults: {format: :json} do
     namespace :admin do
       resources :articles, only: [:index, :create, :update, :destroy]

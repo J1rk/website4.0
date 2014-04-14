@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Angadmin::Application.load_tasks
+Website::Application.load_tasks

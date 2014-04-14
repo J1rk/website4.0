@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Angadmin::Application.config.secret_key_base = '8df40ef394c653885cb0ca059b49386c0c713ce89a9a915c7849cbae5925ff88d278c5bce12d0efd83a20c35b0920f5dc4f89ad837629f70c7b747547478916c'
+Website::Application.config.secret_key_base = '8df40ef394c653885cb0ca059b49386c0c713ce89a9a915c7849cbae5925ff88d278c5bce12d0efd83a20c35b0920f5dc4f89ad837629f70c7b747547478916c'
