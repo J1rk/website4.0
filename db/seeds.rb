@@ -12,11 +12,12 @@ Article.destroy_all
   Article.create(
     "id" => i,
     "date" => Date.today - i,
-    "title" => "Article #{i}",
+    "title" => "Mezinárodní Houslová soutěž PhDr. Josefa Micky v Praze #{i}",
     "permalink" => "article-#{i}",
     "content" => "This is the content of an article",
     "language" => "cz",
-    "published" => true,
+    "published" => (i > 5),
+    "featured" => (i <= 5),
     "menu_id" => nil,
     "gallery_id" => nil
   )

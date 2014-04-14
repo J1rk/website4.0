@@ -1,3 +1,20 @@
 // bower:scss
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
+
+// Ellipsis mixin
+@mixin ellipsis() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table td{
+  &.title {
+    @include ellipsis();
+    max-width: 240px;
+  }
+  .actions{
+    min-width: 110px;
+  }
+}

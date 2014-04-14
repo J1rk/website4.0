@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20140406130227) do
     t.text     "content"
     t.string   "language"
     t.boolean  "published"
+    t.boolean  "featured"
     t.integer  "menu_id"
     t.integer  "gallery_id"
     t.datetime "created_at"

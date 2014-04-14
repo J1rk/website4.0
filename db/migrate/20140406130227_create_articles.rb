@@ -7,6 +7,7 @@ class CreateArticles < ActiveRecord::Migration
       t.text :content
       t.string :language
       t.boolean :published
+      t.boolean :featured
       t.integer :menu_id
       t.integer :gallery_id
 
